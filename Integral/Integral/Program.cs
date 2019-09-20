@@ -284,7 +284,6 @@ namespace Integral
 
 
 
-        
         static double NCIh(double a, double b, double alfa, double beta, int n, double h)
         {
             double I = 0;
