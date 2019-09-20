@@ -285,7 +285,6 @@ namespace Integral
 
 
         
-
         static double NCIh(double a, double b, double alfa, double beta, int n, double h)
         {
             double I = 0;
@@ -428,6 +427,8 @@ namespace Integral
             double R = (S2 - S1) / (-1 + Math.Pow(L, m));
             return R;
         }
+        
+
 
         static void Main(string[] args)
         {
